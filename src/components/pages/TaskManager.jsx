@@ -2,18 +2,16 @@ import React, { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { toast } from "react-toastify";
 import { isPast, isThisWeek, isToday, parseISO } from "date-fns";
-import { taskService } from "@/services/api/taskService";
 import { categoryService } from "@/services/api/categoryService";
-import CategorySidebar from "@/components/molecules/CategorySidebar";
-import TaskInput from "@/components/molecules/TaskInput";
+import { taskService } from "@/services/api/taskService";
+import ApperIcon from "@/components/ApperIcon";
 import FilterBar from "@/components/molecules/FilterBar";
+import TaskInput from "@/components/molecules/TaskInput";
+import CategorySidebar from "@/components/molecules/CategorySidebar";
 import TaskHeader from "@/components/organisms/TaskHeader";
-import TaskList from "@/components/organisms/TaskList";
 import SkeletonLoader from "@/components/organisms/SkeletonLoader";
 import ErrorState from "@/components/organisms/ErrorState";
-import Icon from "@/components/atoms/Icon";
-
-
+import TaskList from "@/components/organisms/TaskList";
 
 const TaskManager = () => {
   // Data states
@@ -248,7 +246,7 @@ const TaskManager = () => {
               onClick={() => setSidebarOpen(true)}
               className="p-2 hover:bg-gray-100 rounded-lg"
             >
-              <Icon name="Menu" className="w-6 h-6" />
+              <ApperIcon name="Menu" className="w-6 h-6" />
             </button>
             <h1 className="font-heading font-bold text-gray-900">TaskFlow</h1>
             <div className="w-10"></div>
