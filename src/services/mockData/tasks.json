@@ -1,0 +1,84 @@
+{
+  "mockTasks": [
+    {
+      "Id": 1,
+      "title": "Review quarterly marketing strategy",
+      "completed": false,
+      "priority": "high",
+      "categoryId": 1,
+      "dueDate": "2024-12-20T10:00:00.000Z",
+      "createdAt": "2024-12-15T09:00:00.000Z",
+      "order": 0
+    },
+    {
+      "Id": 2,
+      "title": "Prepare presentation for client meeting",
+      "completed": false,
+      "priority": "high",
+      "categoryId": 1,
+      "dueDate": "2024-12-19T14:00:00.000Z",
+      "createdAt": "2024-12-15T10:30:00.000Z",
+      "order": 1
+    },
+    {
+      "Id": 3,
+      "title": "Update project documentation",
+      "completed": true,
+      "priority": "medium",
+      "categoryId": 1,
+      "dueDate": "2024-12-18T16:00:00.000Z",
+      "createdAt": "2024-12-14T11:00:00.000Z",
+      "order": 2
+    },
+    {
+      "Id": 4,
+      "title": "Schedule dentist appointment",
+      "completed": false,
+      "priority": "low",
+      "categoryId": 2,
+      "dueDate": "2024-12-25T00:00:00.000Z",
+      "createdAt": "2024-12-15T15:00:00.000Z",
+      "order": 3
+    },
+    {
+      "Id": 5,
+      "title": "Buy groceries for weekend",
+      "completed": false,
+      "priority": "medium",
+      "categoryId": 2,
+      "dueDate": "2024-12-21T12:00:00.000Z",
+      "createdAt": "2024-12-15T16:00:00.000Z",
+      "order": 4
+    },
+    {
+      "Id": 6,
+      "title": "Call mom for birthday",
+      "completed": true,
+      "priority": "high",
+      "categoryId": 2,
+      "dueDate": "2024-12-16T18:00:00.000Z",
+      "createdAt": "2024-12-15T08:00:00.000Z",
+      "order": 5
+    },
+    {
+      "Id": 7,
+      "title": "Complete online course module",
+      "completed": false,
+      "priority": "medium",
+      "categoryId": 3,
+      "dueDate": "2024-12-22T20:00:00.000Z",
+      "createdAt": "2024-12-15T12:00:00.000Z",
+      "order": 6
+    },
+    {
+      "Id": 8,
+      "title": "Read 'Atomic Habits' chapter 5",
+      "completed": false,
+      "priority": "low",
+      "categoryId": 3,
+      "dueDate": null,
+      "createdAt": "2024-12-15T13:00:00.000Z",
+      "order": 7
+    }
+  ]
+}

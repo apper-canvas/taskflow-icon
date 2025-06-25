@@ -1,0 +1,28 @@
+{
+  "mockCategories": [
+    {
+      "Id": 1,
+      "name": "Work",
+      "color": "#5B4FE5",
+      "order": 0
+    },
+    {
+      "Id": 2,
+      "name": "Personal",
+      "color": "#10B981",
+      "order": 1
+    },
+    {
+      "Id": 3,
+      "name": "Learning",
+      "color": "#FFAB00",
+      "order": 2
+    },
+    {
+      "Id": 4,
+      "name": "Health",
+      "color": "#EF4444",
+      "order": 3
+    }
+  ]
+}
